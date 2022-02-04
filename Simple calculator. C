@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main() 
+{
+   int a, b, ch, result;
+   printf("enter two number") ;
+   scanf("%d%d", &a, &b) ;
+   printf("1:add\n 2:sub\n 3:mul\n 4:div\n") ;
+   printf("enter your choice") ;
+   scanf("%d", &ch);
+   switch(ch) 
+   {
+   	case 1:result=a+b;
+   	       break;
+   	case 2:result=a-b;
+   	       break;
+   	case 3:result=a*b;
+   	       break;
+   	case 4:result=a/b;
+   	       break;
+    }
+    printf("%d", result) ;
+}
+    
